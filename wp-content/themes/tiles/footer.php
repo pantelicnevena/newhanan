@@ -1,75 +1,89 @@
 
 <?php if(!is_product()  && !( is_home()) && !(is_archive())) {?>
-    <div class="footer">
+    <div class="footer large">
         <div style="float: left;">
-            <div class="text-center square-link" style="padding-top: 11%;">
-                <a href="mailto:hanan@adoralevin.com">
-                    <i class="fa fa-envelope fa-2x"></i>
-                </a>
-            </div>
+            <button
+                class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                onclick="location.href='mailto:hanan@adoralevin.com'" style="color: #333; margin-top: 20%;">
+                <i class="fa fa-envelope fa-fw"></i>
+            </button>
         </div>
         <!--<div style="float: right; width: 360px;">-->
         <div class="social_container row" style="float: right; width: 90%;">
             <div class="container">
-                <div class="col-md-1">
-                    <div class="text-center square-link" style="padding-top: 10%">
-                        <a href="https://instagram.com/adoralevin/" target="_blank">
-                            <i class="fa fa-instagram fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-3">
                 </div>
-                <div class="col-md-2">
-                    <div class="text-center square-link" style="padding-top: 7%;">
-                        <a href="https://www.facebook.com/pages/Adora-Art-Project-Fan-Club/837747369619420" target="_blank">
-                            <i class="fa fa-facebook fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://instagram.com/adoralevin/', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-instagram fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-1">
-                    <div class="text-center square-link" style="padding-top: 10%;">
-                        <a href="https://twitter.com/AdoraLevin" target="_blank">
-                            <i class="fa fa-twitter fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://www.facebook.com/pages/Adora-Art-Project-Fan-Club/837747369619420', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-facebook fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-2">
-                    <div class="text-center square-link" style="padding-top: 6%;">
-                        <a href="https://www.youtube.com/user/growabrain" target="_blank">
-                            <i class="fa fa-youtube fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://www.facebook.com/pages/Adora-Art-Project-Fan-Club/837747369619420', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-twitter fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-1">
-                    <div class="text-center square-link" style="padding-top: 10%;">
-                        <a href="https://vimeo.com/user27307021" target="_blank">
-                            <i class="fa fa-vimeo-square fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://www.youtube.com/user/growabrain', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-youtube fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-2">
-                    <div class="text-center square-link" style="padding-top: 5%;">
-                        <a href="https://soundcloud.com/adorasdad" target="_blank">
-                            <i class="fa fa-soundcloud fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://vimeo.com/user27307021', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-vimeo-square fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-1">
-                    <div class="text-center square-link" style="padding-top: 11%;">
-                        <a href="https://www.flickr.com/photos/60289418@N03/favorites/" target="_blank">
-                            <i class="fa fa-flickr fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://soundcloud.com/adorasdad', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-soundcloud fa-fw"></i>
+                    </button>
                 </div>
-                <div class="col-md-2">
-                    <div class="text-center square-link" style="padding-top: 6%;">
-                        <a href="http://abcbanana123.deviantart.com/favourites/" target="_blank">
-                            <i class="fa fa-deviantart fa-2x"></i>
-                        </a>
-                    </div>
+                <div class="col-xs-1">
+                    <button
+                        class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                        onclick="window.open('https://www.flickr.com/photos/60289418@N03/favorites/', '_blank')" style="color: #333; margin-top: 10%;">
+                        <i class="fa fa-flickr fa-fw"></i>
+                    </button>
                 </div>
+                <button
+                    class="mdl-button mdl-js-button mdl-button--fab
+                        mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
+                    onclick="window.open('https://www.flickr.com/photos/60289418@N03/favorites/', '_blank')" style="color: #333; margin-top: 10%;">
+                    <i class="fa fa-deviantart fa-fw"></i>
+                </button>
+
             </div>
         </div>
     </div>
+    <div class="footer small">
+
+    </div>
+
 <?php }
 
 if ( is_home() ) {?>
