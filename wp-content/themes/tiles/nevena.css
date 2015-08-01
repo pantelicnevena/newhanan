@@ -1,0 +1,21 @@
+.woocommerce-cart,
+.woocommerce-cart h2,
+.woocommerce-cart h3,
+.woocommerce-checkout,
+.woocommerce-checkout h2,
+.woocommerce-checkout h3{
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+
+/*.mdl-button:hover, .mdl-button--fab[disabled][disabled]{
+    margin: 0 !important;
+    padding-left: 0 !important;
+}*/
+
+.amount {
+    float:right;
+    margin-top:3%;
+}
+
+/*.woocommerce a.remove:hover{color:#fff!important;background:#f08894}*/

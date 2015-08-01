@@ -1,0 +1,162 @@
+[Jul 25 2015 20:59:11] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_breadcrumb' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    496
+-------------------------------------------- 
+[Jul 25 2015 21:03:32] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_breadcrumb' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    496
+-------------------------------------------- 
+[Jul 25 2015 21:08:43] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_breadcrumb' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    496
+-------------------------------------------- 
+[Jul 25 2015 21:17:20] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_breadcrumb' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    496
+-------------------------------------------- 
+[Jul 25 2015 21:51:03] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:03] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:03] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:04] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:09] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:10] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    213
+-------------------------------------------- 
+[Jul 25 2015 21:51:10] ERROR_HANDLER 
+Number:  2
+Message: array_unique() expects parameter 1 to be array, null given
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    721
+-------------------------------------------- 
+[Jul 25 2015 21:51:10] ERROR_HANDLER 
+Number:  2
+Message: join(): Invalid arguments passed
+File:    /home/nevena/webprojects/hanan/wp-includes/post-template.php
+Line:    516
+-------------------------------------------- 
+[Jul 25 2015 21:51:47] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_breadcrumb' not found or invalid function name
+File:    /home/nevena/webprojects/hanan/wp-includes/plugin.php
+Line:    496
+-------------------------------------------- 
+[Jul 28 2015 20:18:36] ERROR_HANDLER 
+Number:  2
+Message: stream_socket_client(): unable to connect to ssl://api.wordpress.org:443 (Connection timed out)
+File:    /home/nevena/webprojects/hanan/wp-includes/class-http.php
+Line:    999
+-------------------------------------------- 
+[Jul 28 2015 20:19:18] ERROR_HANDLER 
+Number:  2
+Message: stream_socket_client(): unable to connect to ssl://api.wordpress.org:443 (Connection timed out)
+File:    /home/nevena/webprojects/hanan/wp-includes/class-http.php
+Line:    999
+-------------------------------------------- 
+[Jul 31 2015 18:08:33] ERROR_HANDLER 
+Number:  2
+Message: stream_socket_client(): unable to connect to tcp://www.telize.com:80 (Connection timed out)
+File:    /home/nevena/webprojects/hanan/wp-includes/class-http.php
+Line:    999
+-------------------------------------------- 
+[Jul 31 2015 20:47:04] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /home/nevena/webprojects/newhanan/wp-includes/class-http.php
+Line:    2116
+-------------------------------------------- 
