@@ -19,3 +19,8 @@
 }
 
 /*.woocommerce a.remove:hover{color:#fff!important;background:#f08894}*/
+
+
+.home.page #menu-main-menu li{
+    margin-bottom: 18px;
+}

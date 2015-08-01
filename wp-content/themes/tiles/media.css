@@ -1,4 +1,7 @@
 @media (max-width: 321px){
+    .footer.large{
+        display: none;
+    }
     #logo a img{
         margin: 0 10%;
         width: 100px;
@@ -116,6 +119,9 @@
 }
 
 @media (min-width: 321px){
+    .footer.large{
+        display: none;
+    }
     #logo a img{
         margin: 0 10%;
         width: 100px;
@@ -233,6 +239,9 @@
 }
 
 @media (min-width: 600px){
+    .footer.large{
+        display: none;
+    }
     #logo a img{
 
     }
@@ -348,6 +357,12 @@
 }
 
 @media (min-width: 601px) {
+    .footer.small{
+        display: none;
+    }
+    .footer.large{
+        display: block;
+    }
     #logo a img{
         margin: 0 4%;
         width: 50px;
@@ -466,6 +481,12 @@
 
 
 @media (min-width: 768px) {
+    .footer.small{
+        display: none;
+    }
+    .footer.large{
+        display: block;
+    }
     #logo a img{
         margin: 0 10%;
         width: 60px;
@@ -583,6 +604,12 @@
 }
 
 @media (min-width: 965px) {
+    .footer.small{
+        display: none;
+    }
+    .footer.large{
+        display: block;
+    }
     #logo a img{
         margin: 0 10%;
         width: 100px;
@@ -697,6 +724,12 @@
 }
 
 @media (min-width: 1024px) {
+    .footer.small{
+        display: none;
+    }
+    .footer.large{
+        display: block;
+    }
     #logo a img{
         margin: 0 10%;
         width: 100px;
@@ -811,6 +844,12 @@
 }
 
 @media (min-width: 1279px) {
+    .footer.small{
+        display: none;
+    }
+    .footer.large{
+        display: block;
+    }
     #logo a img{
         margin: 0 10%;
         width: 100px;
