@@ -100,7 +100,7 @@ function add_feed($feedname, $function) {
  * @see WP_Rewrite::flush_rules()
  * @since 3.0.0
  *
- * @param bool $hard Whether to update .htaccess (hard flush) or just update
+ * @param bool $hard Whether to update .htaccess.old2 (hard flush) or just update
  * 	rewrite_rules transient (soft flush). Default is true (hard).
  */
 function flush_rewrite_rules( $hard = true ) {
@@ -403,7 +403,7 @@ function url_to_postid($url) {
 /**
  * WordPress Rewrite Component.
  *
- * The WordPress Rewrite class writes the rewrite module rules to the .htaccess
+ * The WordPress Rewrite class writes the rewrite module rules to the .htaccess.old2
  * file. It also handles parsing the request to get the correct setup for the
  * WordPress Query class.
  *
@@ -618,7 +618,7 @@ class WP_Rewrite {
 	/**
 	 * Rules that don't redirect to WordPress' index.php.
 	 *
-	 * These rules are written to the mod_rewrite portion of the .htaccess,
+	 * These rules are written to the mod_rewrite portion of the .htaccess.old2,
 	 * and are added by {@link add_external_rule()}.
 	 *
 	 * @since 2.1.0
@@ -646,10 +646,10 @@ class WP_Rewrite {
 	var $endpoints;
 
 	/**
-	 * Whether to write every mod_rewrite rule for WordPress into the .htaccess file.
+	 * Whether to write every mod_rewrite rule for WordPress into the .htaccess.old2 file.
 	 *
 	 * This is off by default, turning it on might print a lot of rewrite rules
-	 * to the .htaccess file.
+	 * to the .htaccess.old2 file.
 	 *
 	 * @see WP_Rewrite::mod_rewrite_rules()
 	 * @since 2.0.0
@@ -1758,12 +1758,12 @@ class WP_Rewrite {
 	}
 
 	/**
-	 * Retrieve mod_rewrite formatted rewrite rules to write to .htaccess.
+	 * Retrieve mod_rewrite formatted rewrite rules to write to .htaccess.old2.
 	 *
-	 * Does not actually write to the .htaccess file, but creates the rules for
+	 * Does not actually write to the .htaccess.old2 file, but creates the rules for
 	 * the process that will.
 	 *
-	 * Will add the non_wp_rules property rules to the .htaccess file before
+	 * Will add the non_wp_rules property rules to the .htaccess.old2 file before
 	 * the WordPress rewrite rules one.
 	 *
 	 * @since 1.5.0
@@ -1837,21 +1837,21 @@ class WP_Rewrite {
 
 		/**
 		 *
-		 * Filter the list of rewrite rules formatted for output to an .htaccess file.
+		 * Filter the list of rewrite rules formatted for output to an .htaccess.old2 file.
 		 *
 		 * @since 1.5.0
 		 *
-		 * @param string $rules mod_rewrite Rewrite rules formatted for .htaccess.
+		 * @param string $rules mod_rewrite Rewrite rules formatted for .htaccess.old2.
 		 */
 		$rules = apply_filters( 'mod_rewrite_rules', $rules );
 
 		/**
-		 * Filter the list of rewrite rules formatted for output to an .htaccess file.
+		 * Filter the list of rewrite rules formatted for output to an .htaccess.old2 file.
 		 *
 		 * @since 1.5.0
 		 * @deprecated 1.5.0 Use the mod_rewrite_rules filter instead.
 		 *
-		 * @param string $rules mod_rewrite Rewrite rules formatted for .htaccess.
+		 * @param string $rules mod_rewrite Rewrite rules formatted for .htaccess.old2.
 		 */
 		$rules = apply_filters( 'rewrite_rules', $rules );  // Deprecated
 
@@ -2042,7 +2042,7 @@ class WP_Rewrite {
 	 *
 	 * @since 2.0.1
 	 * @access public
-	 * @param bool $hard Whether to update .htaccess (hard flush) or just update rewrite_rules option (soft flush). Default is true (hard).
+	 * @param bool $hard Whether to update .htaccess.old2 (hard flush) or just update rewrite_rules option (soft flush). Default is true (hard).
 	 */
 	public function flush_rules( $hard = true ) {
 		static $do_hard_later;
@@ -2064,7 +2064,7 @@ class WP_Rewrite {
 		/**
 		 * Filter whether a "hard" rewrite rule flush should be performed when requested.
 		 *
-		 * A "hard" flush updates .htaccess (Apache) or web.config (IIS).
+		 * A "hard" flush updates .htaccess.old2 (Apache) or web.config (IIS).
 		 *
 		 * @since 3.7.0
 		 *

@@ -40,11 +40,11 @@
 
 
 <body>
-<div class="layout-transparent">
+<div class="layout-transparent mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
 
-            <div class="mdl-layout-spacer"></div>
+            <div class="mdl-layout-spacer "></div>
 
             <nav class="mdl-navigation mdl-color-text--black">
                 <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/' ) );?>">
@@ -62,3 +62,18 @@
 
     </header>
 
+    <div class="mdl-layout__drawer">
+        <nav class="mdl-navigation mdl-color-text--black">
+            <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/' ) );?>">
+                <img class="image-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_original_white_circle.png" alt="">
+                Adora
+            </a>
+            <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/donation' ) );?>">
+                <i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;Charity
+            </a>
+            <a class="mdl-navigation__link mdl-color-text--black" href="mailto:hanan@adoralevin.com">
+                <i class="fa fa-envelope fa-lg"></i>&nbsp;&nbsp;Contact
+            </a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">

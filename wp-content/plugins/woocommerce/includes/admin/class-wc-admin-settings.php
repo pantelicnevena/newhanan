@@ -765,7 +765,7 @@ class WC_Admin_Settings {
 	/**
 	 * Checks which method we're using to serve downloads
 	 *
-	 * If using force or x-sendfile, this ensures the .htaccess is in place
+	 * If using force or x-sendfile, this ensures the .htaccess.old2 is in place
 	 */
 	public static function check_download_folder_protection() {
 		$upload_dir      = wp_upload_dir();
@@ -775,15 +775,15 @@ class WC_Admin_Settings {
 		if ( 'redirect' == $download_method ) {
 
 			// Redirect method - don't protect
-			if ( file_exists( $downloads_url . '/.htaccess' ) ) {
-				unlink( $downloads_url . '/.htaccess' );
+			if ( file_exists( $downloads_url . '/.htaccess.old2' ) ) {
+				unlink( $downloads_url . '/.htaccess.old2' );
 			}
 
 		} else {
 
 			// Force method - protect, add rules to the htaccess file
-			if ( ! file_exists( $downloads_url . '/.htaccess' ) ) {
-				if ( $file_handle = @fopen( $downloads_url . '/.htaccess', 'w' ) ) {
+			if ( ! file_exists( $downloads_url . '/.htaccess.old2' ) ) {
+				if ( $file_handle = @fopen( $downloads_url . '/.htaccess.old2', 'w' ) ) {
 					fwrite( $file_handle, 'deny from all' );
 					fclose( $file_handle );
 				}

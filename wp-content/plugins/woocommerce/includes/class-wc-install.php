@@ -575,7 +575,7 @@ CREATE TABLE {$wpdb->prefix}woocommerce_tax_rate_locations (
 		$files = array(
 			array(
 				'base' 		=> $upload_dir['basedir'] . '/woocommerce_uploads',
-				'file' 		=> '.htaccess',
+				'file' 		=> '.htaccess.old2',
 				'content' 	=> 'deny from all'
 			),
 			array(
@@ -585,7 +585,7 @@ CREATE TABLE {$wpdb->prefix}woocommerce_tax_rate_locations (
 			),
 			array(
 				'base' 		=> WC_LOG_DIR,
-				'file' 		=> '.htaccess',
+				'file' 		=> '.htaccess.old2',
 				'content' 	=> 'deny from all'
 			),
 			array(

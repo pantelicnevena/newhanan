@@ -589,10 +589,11 @@ function give_default_cc_address_fields() {
 	$city  = $logged_in && ! empty( $user_address['city'] ) ? $user_address['city'] : '';
 	$zip   = $logged_in && ! empty( $user_address['zip'] ) ? $user_address['zip'] : '';
 	ob_start(); ?>
+
 	<fieldset id="give_cc_address" class="cc-address">
-		<legend><?php _e( 'Adora art cards Receiving Details', 'give' ); ?></legend>
+		<legend><?php //_e( 'Adora art cards Receiving Details', 'give' ); ?></legend>
 		<?php do_action( 'give_cc_billing_top' ); ?>
-		<p id="give-card-address-wrap" class="form-row form-row-two-thirds">
+		<p id="give-card-address-wrap" class="form-row form-row-wide">
 			<label for="card_address" class="give-label">
 				<?php _e( 'Address', 'give' ); ?>
 				<?php if ( give_field_is_required( 'card_address' ) ) { ?>
@@ -601,11 +602,11 @@ function give_default_cc_address_fields() {
 
 			</label>
 
-			<input type="text" id="card_address" name="card_address" class="card-address give-input<?php if ( give_field_is_required( 'card_address' ) ) {
+			<input type="text" id="card_address" name="card_address" class="card-address give-input<?php/* if ( give_field_is_required( 'card_address' ) ) {
 				echo ' required';
-			} ?>" placeholder="<?php _e( 'Address line 1', 'give' ); ?>" value="<?php echo $line1; ?>" />
+			} */?>" placeholder="<?php _e( 'Address', 'give' ); ?>" value="<?php echo $line1; ?>" />
 		</p>
-
+<!--
 		<p id="give-card-address-2-wrap" class="form-row form-row-one-third">
 			<label for="card_address_2" class="give-label">
 				<?php _e( 'Address Line 2', 'give' ); ?>
@@ -619,8 +620,8 @@ function give_default_cc_address_fields() {
 				echo ' required';
 			} ?>" placeholder="<?php _e( 'Address line 2', 'give' ); ?>" value="<?php echo $line2; ?>" />
 		</p>
-
-		<p id="give-card-city-wrap" class="form-row form-row-two-thirds">
+-->
+		<p id="give-card-city-wrap" class="form-row form-row-wide">
 			<label for="card_city" class="give-label">
 				<?php _e( 'City', 'give' ); ?>
 				<?php if ( give_field_is_required( 'card_city' ) ) { ?>
@@ -628,12 +629,12 @@ function give_default_cc_address_fields() {
 				<?php } ?>
 
 			</label>
-			<input type="text" id="card_city" name="card_city" class="card-city give-input<?php if ( give_field_is_required( 'card_city' ) ) {
+			<input type="text" id="card_city" name="card_city" class="card-city give-input<?php /*if ( give_field_is_required( 'card_city' ) ) {
 				echo ' required';
-			} ?>" placeholder="<?php _e( 'City', 'give' ); ?>" value="<?php echo $city; ?>" />
+			} */?>" placeholder="<?php _e( 'City', 'give' ); ?>" value="<?php echo $city; ?>" />
 		</p>
 
-		<p id="give-card-zip-wrap" class="form-row form-row-one-third">
+		<p id="give-card-zip-wrap" class="form-row form-row-wide">
 			<label for="card_zip" class="give-label">
 				<?php _e( 'Zip / Postal Code', 'give' ); ?>
 				<?php if ( give_field_is_required( 'card_zip' ) ) { ?>
@@ -1058,7 +1059,7 @@ function give_checkout_button_purchase( $form_id ) {
 	?>
 
 	<div class="give-submit-button-wrap give-clearfix">
-		<input type="submit" class="give-submit give-btn" id="give-purchase-button" name="give-purchase" value="<?php echo $display_label; ?>" />
+		<input type="submit" class="give-submit give-btn mdl-button mdl-js-button mdl-button--raised mdl-button--accent"" id="give-purchase-button" name="give-purchase" value="<?php echo $display_label; ?>" />
 		<span class="give-loading-animation"></span>
 	</div>
 	<?php
