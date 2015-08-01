@@ -13,7 +13,7 @@
     </div>
     <div class="mdl-mini-footer--right-section">
         <ul class="mdl-mini-footer--link-list">
-            <li>
+            <li title="Forum">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--pink-A400 footer-btn mdl-button--mini-fab"
@@ -21,7 +21,7 @@
                     <i class="fa fa fa-weixin fa-fw"></i>
                 </button>
             </li>
-            <li>
+            <li title="Instagram">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--pink-A400 footer-btn mdl-button--mini-fab"
@@ -29,7 +29,7 @@
                     <i class="fa fa-instagram fa-fw"></i>
                 </button>
             </li>
-            <li>
+            <li title="Facebook">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--pink-A400 footer-btn mdl-button--mini-fab"
@@ -37,7 +37,7 @@
                     <i class="fa fa-facebook fa-fw"></i>
                 </button>
             </li>
-            <li>
+            <li title="Twitter">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--pink-A400 footer-btn mdl-button--mini-fab"
