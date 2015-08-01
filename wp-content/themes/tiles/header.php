@@ -149,8 +149,7 @@
 
 
     <?php if(is_home() ) {?>
-
-    <div class=" mdl-js-layout mdl-layout--fixed-header">
+    <div class="layout-transparent mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
         <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--red-900">
             <div class="mdl-layout__header-row">
 
@@ -176,6 +175,26 @@
             </div>
         </header>
 
+        <div class="mdl-layout__drawer mdl-layout__header--scroll">
+            <nav class="mdl-navigation mdl-color-text--black">
+                <a class="mdl-navigation__link" href="<?php echo esc_url( home_url( '/' ) );?>">
+                    <img class="image-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_original_white_circle.png" alt="">
+                    Adora
+                </a>
+                <a class="mdl-navigation__link" href="<?php echo esc_url( home_url( '/shop' ) );?>">
+                    <i class="fa fa-shopping-cart fa-lg"></i>&nbsp;&nbsp;Shop
+                </a>
+                <!--<a class="mdl-navigation__link" href="<?php echo esc_url( home_url( '/opposites' ) );?>">
+                        <img class="image-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/vinyl-logo.png" alt="">
+                        Music
+                    </a>-->
+                <a class="mdl-navigation__link" href="<?php echo esc_url( home_url( '/' ) );?>">
+                    <i class="fa fa-music fa-lg"></i>&nbsp;&nbsp;Music
+                </a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
 
         <?php }?>
 

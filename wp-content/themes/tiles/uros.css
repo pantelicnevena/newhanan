@@ -11,7 +11,7 @@
 
 
 .opposites-title img {
-    height: 150px;
+    height: 1.2em;
 }
 
 .opposites-subtitle{
@@ -284,4 +284,19 @@
 
 .give-form-title{
     font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+    .mdl-layout__drawer,
+    .mdl-layout__drawer-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px){
+    .opposites-title {
+        font-family: 'Lobster', Georgia, Times, serif;
+        font-size: 90px;
+    }
+
 }

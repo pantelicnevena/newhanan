@@ -40,8 +40,8 @@
 
 
 <body>
-<div class="layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
+<div class="layout-transparent mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
+    <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
         <div class="mdl-layout__header-row">
 
             <div class="mdl-layout-spacer "></div>
@@ -51,8 +51,8 @@
                     <img class="image-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_original_white_circle.png" alt="">
                     Adora
                 </a>
-                <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/donation' ) );?>">
-                    <i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;Charity
+                <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/charity' ) );?>">
+                    <i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;Donate
                 </a>
                 <a class="mdl-navigation__link mdl-color-text--black" href="mailto:hanan@adoralevin.com">
                     <i class="fa fa-envelope fa-lg"></i>&nbsp;&nbsp;Contact
@@ -68,8 +68,8 @@
                 <img class="image-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo_original_white_circle.png" alt="">
                 Adora
             </a>
-            <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/donation' ) );?>">
-                <i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;Charity
+            <a class="mdl-navigation__link mdl-color-text--black" href="<?php echo esc_url( home_url( '/charity' ) );?>">
+                <i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;Donate
             </a>
             <a class="mdl-navigation__link mdl-color-text--black" href="mailto:hanan@adoralevin.com">
                 <i class="fa fa-envelope fa-lg"></i>&nbsp;&nbsp;Contact

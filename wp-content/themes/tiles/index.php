@@ -28,7 +28,7 @@
     <div class="mdl-grid">
 
 
-        <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-desktop">
+        <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-desktop">
             <div id="header_opposites">
                 <h1 class="opposites-lyric-title">Lyrics by <br>Adora Levin <br>& Hanan Levin</h1>
                 <p class="opposites-description">
