@@ -135,12 +135,13 @@
 /**
     Shop
 */
-
+/*
 .cover-image-shop{
-    background: rgb(229,57,53);
-    background: url('./images/kolaz.jpg') center / cover;
-    text-align: center;
+    background: url('./images/shop-header-img.jpg') no-repeat;
+    width: 100%;
+
 }
+*/
 
 .shop-title a{
     font-family: 'Cabin', Helvetica, Arial, sans-serif;

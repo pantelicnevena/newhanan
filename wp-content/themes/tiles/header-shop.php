@@ -99,7 +99,10 @@
     </div>
 -->
         <div class="cover-image-shop ">
-            <h1 class="shop-title"><a href="<?php echo esc_url( home_url( '/shop' ) );?>"  class="mdl-color-text--teal-700 ">Adora Levin's e-store</a></h1>
+            <a href="<?php echo esc_url( home_url( '/shop' ) );?>">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/shop-header-img.jpg" alt="Adora Livin's e-store"
+                    style="width: 100%;">
+            </a>
         </div>
     <!--<header class="mdl-layout__header mdl-layout__header--scroll">
 

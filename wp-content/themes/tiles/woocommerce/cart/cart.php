@@ -127,13 +127,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 
 
-    <div class="mdl-cell mdl-cell--6-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-    <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
 
         <?php do_action( 'woocommerce_cart_collaterals' ); ?>
 
     </div>
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
 
 
 
