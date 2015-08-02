@@ -34,7 +34,7 @@
                     <button
                         class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
-                        onclick="window.open('https://www.facebook.com/pages/Adora-Art-Project-Fan-Club/837747369619420', '_blank')" style="color: #333; margin-top: 10%;">
+                        onclick="window.open('https://twitter.com/AdoraLevin', '_blank')" style="color: #333; margin-top: 10%;">
                         <i class="fa fa-twitter fa-fw"></i>
                     </button>
                 </div>
@@ -80,7 +80,50 @@
             </div>
         </div>
     </div>
-    <div class="footer small">
+    <div class="footer small" style="color: #f08894!important; padding: 5%;">
+        <div class="col-xs-1">
+            <a href="mailto:growababy@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://instagram.com/adoralevin/">
+                <i class="fa fa-instagram fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://www.facebook.com/pages/Adora-Art-Project-Fan-Club/837747369619420">
+                <i class="fa fa-facebook fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://twitter.com/AdoraLevin">
+                <i class="fa fa-twitter fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://www.youtube.com/user/growabrain">
+                <i class="fa fa-youtube fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://vimeo.com/user27307021">
+                <i class="fa fa-vimeo-square fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://soundcloud.com/adorasdad">
+                <i class="fa fa-soundcloud fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://www.flickr.com/photos/60289418@N03/favorites/">
+                <i class="fa fa-flickr fa-fw"></i>
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="https://www.flickr.com/photos/60289418@N03/favorites/">
+                <i class="fa fa-deviantart fa-fw"></i>
+            </a>
+        </div>
 
     </div>
 
@@ -148,6 +191,10 @@ if ( is_home() ) {?>
     .footer .col-md-2{
         padding-left: 5%;
     }
+    .footer.small a{
+        color: #f08894 !important;
+    }
+
 </style>
 
 </body>
