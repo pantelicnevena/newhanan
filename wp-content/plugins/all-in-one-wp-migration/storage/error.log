@@ -160,3 +160,107 @@ Message: gzinflate(): data error
 File:    /home/nevena/webprojects/newhanan/wp-includes/class-http.php
 Line:    2116
 -------------------------------------------- 
+[Aug 02 2015 00:40:12] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:40:13] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:40:13] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:40:34] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:40:34] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:40:34] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:40:50] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:40:50] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:40:50] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:41:10] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:41:10] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:41:10] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:47:26] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:47:26] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:47:26] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:52:10] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:52:10] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:52:10] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:52:19] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:52:19] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:52:19] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:53:52] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 
+[Aug 02 2015 00:53:52] ERROR Exception while exporting: Unable to open <strong>"/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html"</strong> for writing. 
+[Aug 02 2015 00:53:52] ERROR_HANDLER 
+Number:  2
+Message: fopen(/home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/storage/status.html): failed to open stream: Permission denied
+File:    /home/nevena/webprojects/newhanan/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-status.php
+Line:    105
+-------------------------------------------- 

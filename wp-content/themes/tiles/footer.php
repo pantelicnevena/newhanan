@@ -70,6 +70,7 @@
                         <i class="fa fa-flickr fa-fw"></i>
                     </button>
                 </div>
+                <div class="col-xs-1">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab
                         mdl-js-ripple-effect mdl-color--teal-A400 footer-btn mdl-button--mini-fab"
@@ -77,6 +78,7 @@
                     <i class="fa fa-deviantart fa-fw"></i>
                 </button>
 
+                </div>
             </div>
         </div>
     </div>
