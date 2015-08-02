@@ -7,7 +7,7 @@
  */
 ?>
 
-<div class="shop-sidebar mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-shadow--4dp">
+<div class="shop-sidebar mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-shadow--4dp">
     <a class="mdl-navigation__link" href="http://adoralevin.com/wp-content/uploads/2015/05/Dorian_blue.png">
         Original Adora art
     </a>
