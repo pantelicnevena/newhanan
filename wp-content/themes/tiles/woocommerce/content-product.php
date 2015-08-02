@@ -57,7 +57,7 @@ array_push($classes, 'mdl-cell--4-col');
 	</a>
 
 	<div class="mdl-card__supporting-text">
-		<a href="<?php print_r($product->add_to_cart_url())?>">
+		<a style="color: black;" href="<?php print_r($product->add_to_cart_url())?>">
 			<h3><?php the_title(); ?></h3>
 		</a>
 	</div>
