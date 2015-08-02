@@ -18,7 +18,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     <div class="mdl-cell mdl-cell--8-col">
+        <a href="<?php echo esc_url( home_url( '/shop' ) );?>" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+            Back to shop
+        </a>
 
+        <br>
+        <br>
+        <br>
         <form action="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" method="post">
 
             <?php do_action( 'woocommerce_before_cart_table' ); ?>
